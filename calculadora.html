@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Calculadora</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='calculadora.css'>
+    <script src='calculadora.js' defer></script>
+</head>
+
+<body>
+    <h1>Calculadora Basica</h1>
+    
+    <label>INGRESA NUMERO</label>
+    <input class="numero1" type="number" placeholder="Ingresa un numero">
+    <br>
+    <br>
+    <label>INGRESA NUMERO</label>
+    <input class="numero2" type="number" placeholder="Ingresa un Numero">
+
+    <br><br>
+
+    <button type="button" class="btnOperaciones">Calcular Operaciones</button>
+
+    <br><br>
+    <table>
+        <tr>
+            <td><label>Suma: </label></td>
+            <td><input class="resultadosSuma" type="text" readonly></td>
+        </tr>
+        <tr>
+            <td><label>Resta: </label></td>
+            <td><input class="resultadosResta" type="text" readonly></td>
+        </tr>
+        <tr>
+            <td><label>Multiplicación: </label></td>
+            <td><input class="resultadosMultiplicacion" type="text" readonly></td>
+        </tr>
+        <tr>
+            <td><label>División: </label></td>
+            <td><input class="resultadosDivision" type="text" readonly></td>
+        </tr>
+    </table>
+
+
+    <hr>
+    <h1>Calculadora de Potencias</h1>
+    <label>INGRESA El NUMERO BASE </label>
+    <input type="number" class="base" placeholder="Ingresa el Numero Base">
+    <br><br>
+
+    <label>INGRESA LA POTENCIACION </label>
+    <input type="number" class="potencia" placeholder="Ingresa la Potencia">
+    <br><br>
+    <button class="btnPotencia" type="button">Calcular Potencia</button>
+
+
+    <br> <br>
+    <table>
+        <tr>
+            <label>Resultado: </label>
+            <td></td><input type="text" class="resultadoPotencia" readonly></td>
+        </tr>
+    </table>
+    <hr>
+
+    <h1>Calculadora de Raiz </h1>
+    <label>INGRESA EL RADICANDO </label>
+    <input class="radicando" type="number" placeholder="Ingresa el Radicando">
+    <BR><br>
+    <label>INGRESA EL INDICE</label>
+    <input class="indice" type="number" placeholder="Ingresa el Indice">
+    <br><br>
+    <button type="button" class="btnRaiz">Calcular Raiz</button>
+    <br><br>
+    <label>Resultado: </label>
+    <input class="resultadoRaiz" type="number" readonly>
+    
+    <hr>
+    <h1>Calculadora de Factorial</h1>
+    <label>NUMERO</label>
+    <input class="numerofactorial" type="number" placeholder="Ingresa el numero">
+    <br><br>
+    <button class="btnFactorial">Calcular Factorial</button>
+    <br><br>
+    <label>Resultado: </label>
+    <input class="resultadoFactorial" type="text" readonly>
+    
+    <hr>
+</body>
+
+</html>

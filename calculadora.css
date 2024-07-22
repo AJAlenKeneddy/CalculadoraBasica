@@ -1,0 +1,16 @@
+button{
+    color: #000000;
+    border-radius: 10%;
+    border-color: #003cff;
+    background-color: #33ff00;
+    border-style: double;    
+    
+}
+label{
+    color: rgb(255, 0, 0);
+}
+input{
+    background-color: aqua;
+    border-color: white;
+    
+}
